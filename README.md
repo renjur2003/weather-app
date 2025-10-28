@@ -31,9 +31,9 @@ You just need to **enter the city name**, and the app fetches accurate weather d
 ---
 
 ## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the Repository
 ```bash
+### 1️⃣ Clone the Repository
+
 git clone https://github.com/renjur2003/weather-app.git
 
 2️⃣ Navigate to Project Folder
