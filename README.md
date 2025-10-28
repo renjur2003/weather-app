@@ -1,16 +1,74 @@
-# React + Vite
+# 🌦️ Weather App using React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📘 Project Overview
+This **Weather App** is built using **React JS**. It allows users to check the **current weather** of any city, state, or country using the **OpenWeatherMap API**.  
+The app displays key weather data such as:
+- 🌡️ Temperature  
+- 🌥️ Weather Condition  
+- 💧 Humidity  
+- 🌬️ Wind Speed  
 
-Currently, two official plugins are available:
+You just need to **enter the city name**, and the app fetches accurate weather details in real time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Project Features
+✅ Fetch real-time weather data using **OpenWeatherMap API**  
+✅ Simple and clean **React UI**  
+✅ Search feature for any city or country  
+✅ Displays **Temperature, Humidity, Wind Speed, and Weather Condition**  
+✅ Responsive design using **Plain CSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- **React JS**
+- **JavaScript (ES6+)**
+- **OpenWeatherMap API**
+- **HTML5**
+- **CSS3**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/renjur2003/weather-app.git
+
+2️⃣ Navigate to Project Folder
+cd weather-app
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Start the App
+npm run dev
+
+🔑 Get Your OpenWeatherMap API Key
+
+Visit https://openweathermap.org/api
+
+Sign up for a free account
+
+Go to your dashboard and copy the API key
+
+Create a .env file in your React project root and add
+
+🧭 How It Works
+
+- User enters a city name in the search bar.
+
+- React fetches data from OpenWeatherMap API.
+
+- API returns weather details (JSON format).
+
+- The data is displayed dynamically in the UI using React state management.
+
+⭐ If you like this project, please give it a star on GitHub!
+
+
+---
+
+Would you like me to include **screenshots section with placeholders and styling preview (like card style UI)** too? That can make the README more professional visually for GitHub recruiters.
+
